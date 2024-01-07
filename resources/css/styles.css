@@ -21,6 +21,7 @@ html {
   background: var(--main-red);
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-list {
@@ -39,4 +40,24 @@ html {
 
 .nav-list a:hover {
   background: var(--main-blue);
+}
+
+.introduction {
+  background-color: var(--main-gray);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction h1 {
+  font-size: 3rem;
+  color: var(--main-white);
+}
+
+.introduction p {
+  font-size: 1.5rem;
+  color: var(--main-red);
+  padding-top: 1.5rem;
 }
