@@ -1,3 +1,10 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,4 +13,30 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  background: var(--main-red);
+  position: fixed;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 3rem;
+  list-style: none;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2rem;
+  padding: 1rem;
+  color: var(--main-white);
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
 }
