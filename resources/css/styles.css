@@ -64,8 +64,7 @@ html {
 
 .projects {
   background-color: var(--main-blue);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 10rem 2rem;
 }
 
 .project {
