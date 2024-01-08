@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="resources/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Personal Portfolio Webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
 
+   <!-- NAVIGATION -->
     <nav class="navigation">
         <ul class="nav-list">
             <li><a href="#about">About</a></li>
@@ -17,11 +19,13 @@
         </ul>
     </nav>
 
+  <!-- INTRODUCTION SECTION -->
     <section class="introduction" id="about">
       <h1>Hey I am Tommy</h1>
       <p>Aspiring web developer</p>
     </section>
-
+  
+  <!-- PROJECTS SECTION -->
     <section class="projects" id="work">
       <h2>These are some of my projects</h2>
       <div class="projects-grid">
@@ -175,16 +179,51 @@
         href="https://codepen.io/FreeCodeCamp/"
         class="btn btn-show-all"
         target="_blank"
-        >Show all<i class="fas fa-chevron-right"></i
+        >Show all<i class="fa fa-chevron-right"></i
       ></a>
     </div>
     </section>
-
-    <section class="contacts" id="contact"></section>
+  
+  <!-- CONTACTS SECTION -->
+    <section class="contacts" id="contact">
+      <h1>Let's work together...</h1>
+      <p>How do you take your coffee?</p>
+      <div class="contact-links">
+        <a
+          href="https://www.facebook.com/tomislav.lazic.31"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fa fa-facebook"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/Tomoi96"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fa fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fa fa-twitter"></i> Twitter</a
+        >
+        <a href="/cdn-cgi/l/email-protection#d5b0adb4b8a5b9b095b0adb4b8a5b9b0fbb6bab8" class="btn contact-details"><i class="fa fa-at"></i> Send a mail</a
+        >
+      </div>
+    </section>
 
   </body>
+  <div class="red-line"></div>
 
   <footer>
+    <p>**This portfolio is owned by Tomislav Lazic.</p>
+    <p>
+      &copy; Tomoi96
+      <a href="https://github.com/Tomoi96" target="_blank"
+        >GitHub <i class="fa fa-github"></i
+      ></a>
+    </p>
   </footer>
 
   </html>
