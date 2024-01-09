@@ -221,3 +221,87 @@ footer p {
   color: var(--main-white);
   margin: 1.5rem;
 }
+
+@media (max-width: 480px) {
+  footer p {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--main-white);
+  }
+
+  .nav-list a {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--main-white);
+    text-decoration: none;
+  }
+
+  .project-tile {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .projects h2 {
+    padding-top: 0;
+  }
+
+  .projects p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 2rem;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 6rem;
+  }
+
+  .btn-show-all {
+    font-size: 1rem;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .introduction h1, .contacts h1, .projects h2 {
+    font-size: 1.5rem;
+  }
+
+  .projects h2 {
+    padding-top: 0;
+  }
+
+  .projects {
+    padding: 2rem 1rem;
+  }
+
+  .nav-list a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .contact-details {
+    font-size: 1rem;
+  }
+
+  .contacts p {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.7rem;
+  }
+}
